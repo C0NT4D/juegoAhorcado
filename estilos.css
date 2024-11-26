@@ -1,0 +1,90 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Título */
+h1 {
+    color: #5a67d8;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Información del juego */
+p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Formulario */
+form {
+    margin: 20px 0;
+}
+
+label {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+}
+
+input[type="text"]:focus {
+    border-color: #5a67d8;
+    box-shadow: 0 0 5px rgba(90, 103, 216, 0.5);
+}
+
+/* Botón */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #5a67d8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #434ea6;
+}
+
+/* Letras usadas */
+p:last-of-type {
+    font-size: 16px;
+    font-style: italic;
+    color: #666;
+}
+
+/* Enlace */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #5a67d8;
+    border: 1px solid #5a67d8;
+    padding: 10px 15px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    background-color: #5a67d8;
+    color: white;
+}
